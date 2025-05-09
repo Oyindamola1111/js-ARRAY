@@ -47,10 +47,50 @@ m.sort();
 console.log(m); // ["apple", "cherry", "grape", "orange"]
 
 // 10. to remove element
-
 let n = ["apple", "banana", "cherry","goro","maize","cake"];
 n.pop("cake");
 console.log(n);
+
+// 11. to remove an element from the beginning of an array
+let p = ["yellow","blue","red","green","pale","white"];
+p.shift();
+console.log(p);
+
+// 12. to add something to the beginning of an array
+let r = ["res","mallo","jumy","ople","hyretw"];
+r.unshift("jumy");
+console.log(r);
+
+// 13. to convert everything in an array to string
+let s = ["res","mallo","jumy","ople"];
+console.log(s.join('|')); 
+
+// 14. to know where a particular thing is in an array
+let t = ["hulo","lop","bully","child","advance"];
+console.log(t.indexOf("child"));
+
+      
+           
+                   // OBJECTS
+let obj = {
+  name:"olu", 
+  score:100
+} 
+console.log(obj);
+
+console.log(obj.score);
+console.log(obj.name);
+
+
+// 1. to locate object in an array
+let u = ["torn","praise","bigi",{name:"john",score:30}];
+console.log(u[3]);
+
+//2.to locate a particular element in an object inside an array
+let v = ["torn","praise","bigi",{name:"john",score:30}];
+console.log(v[3].name);
+
+
 
 
 
