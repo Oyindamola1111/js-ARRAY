@@ -46,6 +46,13 @@ let m = ["apple", "banana", "cherry",];
 m.sort();
 console.log(m); // ["apple", "cherry", "grape", "orange"]
 
+// 10. to remove element
+
+let n = ["apple", "banana", "cherry","goro","maize","cake"];
+n.pop("cake");
+console.log(n);
+
+
 
 //if statement
 let age = 16;
