@@ -89,6 +89,7 @@ console.log(u[3]);
 //2.to locate a particular element in an object inside an array
 let v = ["torn","praise","bigi",{name:"john",score:30}];
 console.log(v[3].name);
+console.log(v[3]);
 
 
 
